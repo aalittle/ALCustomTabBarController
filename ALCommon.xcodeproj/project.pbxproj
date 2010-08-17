@@ -14,7 +14,7 @@
 		7772B1F7121AE83500DC342C /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7772B1F6121AE83500DC342C /* FourthViewController.m */; };
 		7772B1FC121AE84400DC342C /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7772B1FB121AE84400DC342C /* FifthViewController.m */; };
 		7772B240121AF92900DC342C /* BlueBlock.png in Resources */ = {isa = PBXBuildFile; fileRef = 7772B23F121AF92900DC342C /* BlueBlock.png */; };
-		7772B270121AFF1200DC342C /* TabBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7772B26E121AFF1200DC342C /* TabBarView.xib */; };
+		7772B280121B096D00DC342C /* Button_crystal.png in Resources */ = {isa = PBXBuildFile; fileRef = 7772B27F121B096D00DC342C /* Button_crystal.png */; };
 		77B3EB56121ABECC00232927 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77B3EB55121ABECC00232927 /* UIKit.framework */; };
 		77B3EB58121ABECC00232927 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77B3EB57121ABECC00232927 /* Foundation.framework */; };
 		77B3EB5A121ABECC00232927 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77B3EB59121ABECC00232927 /* CoreGraphics.framework */; };
@@ -31,6 +31,7 @@
 		77B3EB86121AD2B900232927 /* Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 77B3EB84121AD2B900232927 /* Button.png */; };
 		77B3EB87121AD2B900232927 /* Purple.png in Resources */ = {isa = PBXBuildFile; fileRef = 77B3EB85121AD2B900232927 /* Purple.png */; };
 		77B3EB89121AD36E00232927 /* TabBarBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 77B3EB88121AD36E00232927 /* TabBarBackground.png */; };
+		77DC904A121B0F0100FF2E63 /* TabBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77DC9048121B0F0100FF2E63 /* TabBarView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,7 +45,7 @@
 		7772B1FA121AE84400DC342C /* FifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifthViewController.h; sourceTree = "<group>"; };
 		7772B1FB121AE84400DC342C /* FifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifthViewController.m; sourceTree = "<group>"; };
 		7772B23F121AF92900DC342C /* BlueBlock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlueBlock.png; sourceTree = "<group>"; };
-		7772B26F121AFF1200DC342C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TabBarView.xib; sourceTree = "<group>"; };
+		7772B27F121B096D00DC342C /* Button_crystal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button_crystal.png; sourceTree = "<group>"; };
 		77B3EB52121ABECC00232927 /* ALCommon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ALCommon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77B3EB55121ABECC00232927 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		77B3EB57121ABECC00232927 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -69,6 +70,7 @@
 		77B3EB84121AD2B900232927 /* Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button.png; sourceTree = "<group>"; };
 		77B3EB85121AD2B900232927 /* Purple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Purple.png; sourceTree = "<group>"; };
 		77B3EB88121AD36E00232927 /* TabBarBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TabBarBackground.png; sourceTree = "<group>"; };
+		77DC9049121B0F0100FF2E63 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TabBarView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,7 +134,7 @@
 		77B3EB4C121ABECC00232927 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				7772B26E121AFF1200DC342C /* TabBarView.xib */,
+				77DC9048121B0F0100FF2E63 /* TabBarView.xib */,
 				7772B1D1121AE77D00DC342C /* FifthView.xib */,
 				7772B1D3121AE77D00DC342C /* FourthView.xib */,
 				7772B1D5121AE77D00DC342C /* ThirdView.xib */,
@@ -166,6 +168,7 @@
 		77B3EB83121AD2B900232927 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				7772B27F121B096D00DC342C /* Button_crystal.png */,
 				7772B23F121AF92900DC342C /* BlueBlock.png */,
 				77B3EB88121AD36E00232927 /* TabBarBackground.png */,
 				77B3EB84121AD2B900232927 /* Button.png */,
@@ -231,7 +234,8 @@
 				7772B1D8121AE77D00DC342C /* FourthView.xib in Resources */,
 				7772B1D9121AE77D00DC342C /* ThirdView.xib in Resources */,
 				7772B240121AF92900DC342C /* BlueBlock.png in Resources */,
-				7772B270121AFF1200DC342C /* TabBarView.xib in Resources */,
+				7772B280121B096D00DC342C /* Button_crystal.png in Resources */,
+				77DC904A121B0F0100FF2E63 /* TabBarView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,14 +285,6 @@
 			name = ThirdView.xib;
 			sourceTree = "<group>";
 		};
-		7772B26E121AFF1200DC342C /* TabBarView.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7772B26F121AFF1200DC342C /* en */,
-			);
-			name = TabBarView.xib;
-			sourceTree = "<group>";
-		};
 		77B3EB5D121ABECC00232927 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -319,6 +315,14 @@
 				77B3EB72121ABECD00232927 /* en */,
 			);
 			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+		77DC9048121B0F0100FF2E63 /* TabBarView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77DC9049121B0F0100FF2E63 /* en */,
+			);
+			name = TabBarView.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

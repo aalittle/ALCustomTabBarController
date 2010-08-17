@@ -12,9 +12,11 @@
 @implementation ALTabBarView
 
 @synthesize delegate;
+@synthesize selectedButton;
 
 - (void)dealloc {
     
+    [selectedButton release];
     delegate = nil;
     [super dealloc];
 }
@@ -30,7 +32,16 @@
 -(IBAction) touchButton:(id)sender {
 
     if( delegate != nil && [delegate respondsToSelector:@selector(tabWasSelected:)]) {
-        [delegate tabWasSelected:((UIButton *)sender).tag];
+        
+        if (selectedButton) {
+            [selectedButton setBackgroundImage:[UIImage imageNamed:@"Button"] forState:UIControlStateNormal];
+            [selectedButton release];
+        
+        }
+        
+        selectedButton = [((UIButton *)sender) retain];
+        [selectedButton setBackgroundImage:[UIImage imageNamed:@"Button_crystal"] forState:UIControlStateNormal];
+        [delegate tabWasSelected:selectedButton.tag];
     }
 }
 

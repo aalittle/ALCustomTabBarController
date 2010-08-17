@@ -68,6 +68,7 @@
 							<double key="NSSize">15</double>
 							<int key="NSfFlags">16</int>
 						</object>
+						<string key="IBUISelectedTitle">1</string>
 						<string key="IBUINormalTitle">1</string>
 						<object class="NSColor" key="IBUIHighlightedTitleColor" id="1054564066">
 							<int key="NSColorSpace">3</int>
@@ -81,7 +82,11 @@
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MC41AA</bytes>
 						</object>
-						<object class="NSCustomResource" key="IBUINormalBackgroundImage" id="794403004">
+						<object class="NSCustomResource" key="IBUISelectedBackgroundImage" id="690639111">
+							<string key="NSClassName">NSImage</string>
+							<string key="NSResourceName">Button_crystal.png</string>
+						</object>
+						<object class="NSCustomResource" key="IBUINormalBackgroundImage" id="352341504">
 							<string key="NSClassName">NSImage</string>
 							<string key="NSResourceName">Button.png</string>
 						</object>
@@ -89,7 +94,7 @@
 					<object class="IBUIButton" id="884261178">
 						<reference key="NSNextResponder" ref="912473764"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{78, 432}, {44, 44}}</string>
+						<string key="NSFrame">{{77, 432}, {44, 44}}</string>
 						<reference key="NSSuperview" ref="912473764"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<int key="IBUITag">1</int>
@@ -99,12 +104,10 @@
 						<reference key="IBUIFont" ref="252872323"/>
 						<string key="IBUINormalTitle">2</string>
 						<reference key="IBUIHighlightedTitleColor" ref="1054564066"/>
-						<object class="NSColor" key="IBUINormalTitleColor">
-							<int key="NSColorSpace">1</int>
-							<bytes key="NSRGB">MC45OTI0NzQ5MTcxIDEgMC45NjA5NTk1MzUxAA</bytes>
-						</object>
+						<reference key="IBUINormalTitleColor" ref="1054564066"/>
 						<reference key="IBUINormalTitleShadowColor" ref="764031175"/>
-						<reference key="IBUINormalBackgroundImage" ref="794403004"/>
+						<reference key="IBUISelectedBackgroundImage" ref="690639111"/>
+						<reference key="IBUINormalBackgroundImage" ref="352341504"/>
 					</object>
 					<object class="IBUIButton" id="678039937">
 						<reference key="NSNextResponder" ref="912473764"/>
@@ -119,12 +122,15 @@
 						<reference key="IBUIFont" ref="252872323"/>
 						<string key="IBUINormalTitle">3</string>
 						<reference key="IBUIHighlightedTitleColor" ref="1054564066"/>
+						<reference key="IBUISelectedTitleColor" ref="1054564066"/>
 						<object class="NSColor" key="IBUINormalTitleColor">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MC45OTI0NzQ5MTcxIDEgMC45NjA5NTk1MzUxAA</bytes>
 						</object>
 						<reference key="IBUINormalTitleShadowColor" ref="764031175"/>
-						<reference key="IBUINormalBackgroundImage" ref="794403004"/>
+						<reference key="IBUISelectedImage" ref="690639111"/>
+						<reference key="IBUISelectedBackgroundImage" ref="690639111"/>
+						<reference key="IBUINormalBackgroundImage" ref="352341504"/>
 					</object>
 					<object class="IBUIButton" id="792243408">
 						<reference key="NSNextResponder" ref="912473764"/>
@@ -139,17 +145,20 @@
 						<reference key="IBUIFont" ref="252872323"/>
 						<string key="IBUINormalTitle">4</string>
 						<reference key="IBUIHighlightedTitleColor" ref="1054564066"/>
+						<reference key="IBUISelectedTitleColor" ref="1054564066"/>
 						<object class="NSColor" key="IBUINormalTitleColor">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MC45OTI0NzQ5MTcxIDEgMC45NjA5NTk1MzUxAA</bytes>
 						</object>
 						<reference key="IBUINormalTitleShadowColor" ref="764031175"/>
-						<reference key="IBUINormalBackgroundImage" ref="794403004"/>
+						<reference key="IBUISelectedImage" ref="690639111"/>
+						<reference key="IBUISelectedBackgroundImage" ref="690639111"/>
+						<reference key="IBUINormalBackgroundImage" ref="352341504"/>
 					</object>
 					<object class="IBUIButton" id="709680068">
 						<reference key="NSNextResponder" ref="912473764"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{251, 432}, {44, 44}}</string>
+						<string key="NSFrame">{{250, 431}, {46, 46}}</string>
 						<reference key="NSSuperview" ref="912473764"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<int key="IBUITag">4</int>
@@ -159,12 +168,15 @@
 						<reference key="IBUIFont" ref="252872323"/>
 						<string key="IBUINormalTitle">5</string>
 						<reference key="IBUIHighlightedTitleColor" ref="1054564066"/>
+						<reference key="IBUISelectedTitleColor" ref="1054564066"/>
 						<object class="NSColor" key="IBUINormalTitleColor">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MC45OTI0NzQ5MTcxIDEgMC45NjA5NTk1MzUxAA</bytes>
 						</object>
 						<reference key="IBUINormalTitleShadowColor" ref="764031175"/>
-						<reference key="IBUINormalBackgroundImage" ref="794403004"/>
+						<reference key="IBUISelectedImage" ref="690639111"/>
+						<reference key="IBUISelectedBackgroundImage" ref="690639111"/>
+						<reference key="IBUINormalBackgroundImage" ref="352341504"/>
 					</object>
 				</object>
 				<string key="NSFrameSize">{320, 480}</string>
@@ -255,10 +267,10 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<reference ref="53080818"/>
 							<reference ref="92328509"/>
-							<reference ref="884261178"/>
 							<reference ref="678039937"/>
-							<reference ref="792243408"/>
 							<reference ref="709680068"/>
+							<reference ref="884261178"/>
+							<reference ref="792243408"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -283,13 +295,13 @@
 						<reference key="parent" ref="912473764"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">12</int>
-						<reference key="object" ref="792243408"/>
+						<int key="objectID">14</int>
+						<reference key="object" ref="709680068"/>
 						<reference key="parent" ref="912473764"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">14</int>
-						<reference key="object" ref="709680068"/>
+						<int key="objectID">12</int>
+						<reference key="object" ref="792243408"/>
 						<reference key="parent" ref="912473764"/>
 					</object>
 				</object>
@@ -538,17 +550,19 @@
 			<integer value="3100" key="NS.object.0"/>
 		</object>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
-		<string key="IBDocument.LastKnownRelativeProjectPath">ALCommon.xcodeproj</string>
+		<string key="IBDocument.LastKnownRelativeProjectPath">../ALCommon.xcodeproj</string>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<object class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
 			<bool key="EncodedWithXMLCoder">YES</bool>
 			<object class="NSArray" key="dict.sortedKeys">
 				<bool key="EncodedWithXMLCoder">YES</bool>
 				<string>Button.png</string>
+				<string>Button_crystal.png</string>
 				<string>TabBarBackground.png</string>
 			</object>
 			<object class="NSMutableArray" key="dict.values">
 				<bool key="EncodedWithXMLCoder">YES</bool>
+				<string>{46, 46}</string>
 				<string>{46, 46}</string>
 				<string>{320, 44}</string>
 			</object>

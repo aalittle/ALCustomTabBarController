@@ -23,10 +23,13 @@
 @interface ALTabBarView : UIView {
 
     NSObject<ALTabBarDelegate> *delegate;
+
+    UIButton *selectedButton;
 }
 
 @property (nonatomic, assign) NSObject<ALTabBarDelegate> *delegate;
-
+@property (nonatomic, retain) UIButton *selectedButton;
+ 
 
 -(IBAction) touchButton:(id)sender;
 
