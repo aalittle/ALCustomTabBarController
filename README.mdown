@@ -1,0 +1,22 @@
+ALCustomTabBarController (author: Andrew Little)
+================================================
+
+ALCustomTabBarController is an iOS 4.0 project that allows customization of the standard UITabBarController such that the UI can be modified from it's standard iOS look and feel.  The implementation should not be considered production-ready, but should instead be taken as an example of how one might customize the UITabBarController  
+
+ALCustomTabBarController is iOS4 and iPad compatible and released under the MIT license (see MBProgressHUD.h).
+
+[![](http://dl.dropbox.com/u/378729/MBProgressHUD/1-thumb.png)](http://dl.dropbox.com/u/378729/MBProgressHUD/1.png)
+[![](http://dl.dropbox.com/u/378729/MBProgressHUD/2-thumb.png)](http://dl.dropbox.com/u/378729/MBProgressHUD/2.png)
+[![](http://dl.dropbox.com/u/378729/MBProgressHUD/3-thumb.png)](http://dl.dropbox.com/u/378729/MBProgressHUD/3.png)
+[![](http://dl.dropbox.com/u/378729/MBProgressHUD/4-thumb.png)](http://dl.dropbox.com/u/378729/MBProgressHUD/4.png)
+[![](http://dl.dropbox.com/u/378729/MBProgressHUD/5-thumb.png)](http://dl.dropbox.com/u/378729/MBProgressHUD/5.png)
+
+Usage
+=====
+
+This is not a static library, but instead a demo application utilizing the two main classes which make up the custom UITabBarController:
+
+- ALTabBarController {h,m}: a subclass of the UITabBarController which hides the standard UI and uses ALTabBarView in its place
+- ALTabBarView {h, m}: a subclass of UIView, defined in TabBarView.xib, and defines the custom UI to be used in place of the standard UITabBar.
+- TabBarView.xib: defines the UI for the customized TabBar.
+
