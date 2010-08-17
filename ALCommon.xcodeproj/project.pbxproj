@@ -32,6 +32,7 @@
 		77B3EB87121AD2B900232927 /* Purple.png in Resources */ = {isa = PBXBuildFile; fileRef = 77B3EB85121AD2B900232927 /* Purple.png */; };
 		77B3EB89121AD36E00232927 /* TabBarBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 77B3EB88121AD36E00232927 /* TabBarBackground.png */; };
 		77DC904A121B0F0100FF2E63 /* TabBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77DC9048121B0F0100FF2E63 /* TabBarView.xib */; };
+		77DC909D121B1DC000FF2E63 /* ViewBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 77DC909C121B1DC000FF2E63 /* ViewBackground.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +72,7 @@
 		77B3EB85121AD2B900232927 /* Purple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Purple.png; sourceTree = "<group>"; };
 		77B3EB88121AD36E00232927 /* TabBarBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TabBarBackground.png; sourceTree = "<group>"; };
 		77DC9049121B0F0100FF2E63 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TabBarView.xib; sourceTree = "<group>"; };
+		77DC909C121B1DC000FF2E63 /* ViewBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ViewBackground.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +170,7 @@
 		77B3EB83121AD2B900232927 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				77DC909C121B1DC000FF2E63 /* ViewBackground.png */,
 				7772B27F121B096D00DC342C /* Button_crystal.png */,
 				7772B23F121AF92900DC342C /* BlueBlock.png */,
 				77B3EB88121AD36E00232927 /* TabBarBackground.png */,
@@ -236,6 +239,7 @@
 				7772B240121AF92900DC342C /* BlueBlock.png in Resources */,
 				7772B280121B096D00DC342C /* Button_crystal.png in Resources */,
 				77DC904A121B0F0100FF2E63 /* TabBarView.xib in Resources */,
+				77DC909D121B1DC000FF2E63 /* ViewBackground.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,12 +365,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Andrew Little (ARHN4M8PM5)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ALCommon_Prefix.pch;
 				INFOPLIST_FILE = "ALCommon-Info.plist";
 				PRODUCT_NAME = ALCommon;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "785EA18C-B93C-427E-ACE0-B116B33DE356";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
