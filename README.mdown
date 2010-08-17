@@ -3,7 +3,7 @@ ALCustomTabBarController (author: Andrew Little)
 
 ALCustomTabBarController is an iOS 4.0 project that allows customization of the standard UITabBarController such that the UI can be modified from it's standard iOS look and feel.  The implementation should not be considered production-ready, but should instead be taken as an example of how one might customize the UITabBarController  
 
-ALCustomTabBarController is iOS4 and iPad compatible and released under the MIT license (see MBProgressHUD.h).
+ALCustomTabBarController is iOS4 and iPad compatible and released under the MIT license (see ALTabBarController.h).
 
 [![](http://dl.dropbox.com/u/6148369/screenshots/custom_tab_bar.png)](http://dl.dropbox.com/u/6148369/screenshots/custom_tab_bar.png)
 
