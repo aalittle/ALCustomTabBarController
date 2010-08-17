@@ -5,11 +5,7 @@ ALCustomTabBarController is an iOS 4.0 project that allows customization of the 
 
 ALCustomTabBarController is iOS4 and iPad compatible and released under the MIT license (see MBProgressHUD.h).
 
-[![](http://dl.dropbox.com/u/378729/MBProgressHUD/1-thumb.png)](http://dl.dropbox.com/u/378729/MBProgressHUD/1.png)
-[![](http://dl.dropbox.com/u/378729/MBProgressHUD/2-thumb.png)](http://dl.dropbox.com/u/378729/MBProgressHUD/2.png)
-[![](http://dl.dropbox.com/u/378729/MBProgressHUD/3-thumb.png)](http://dl.dropbox.com/u/378729/MBProgressHUD/3.png)
-[![](http://dl.dropbox.com/u/378729/MBProgressHUD/4-thumb.png)](http://dl.dropbox.com/u/378729/MBProgressHUD/4.png)
-[![](http://dl.dropbox.com/u/378729/MBProgressHUD/5-thumb.png)](http://dl.dropbox.com/u/378729/MBProgressHUD/5.png)
+[![](http://dl.dropbox.com/u/6148369/screenshots/custom_tab_bar.png)](http://dl.dropbox.com/u/6148369/screenshots/custom_tab_bar.png)
 
 Usage
 =====
