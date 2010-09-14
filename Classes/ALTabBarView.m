@@ -34,13 +34,13 @@
     if( delegate != nil && [delegate respondsToSelector:@selector(tabWasSelected:)]) {
         
         if (selectedButton) {
-            [selectedButton setBackgroundImage:[UIImage imageNamed:@"Button"] forState:UIControlStateNormal];
+            [selectedButton setBackgroundImage:[UIImage imageNamed:@"Button.png"] forState:UIControlStateNormal];
             [selectedButton release];
         
         }
         
         selectedButton = [((UIButton *)sender) retain];
-        [selectedButton setBackgroundImage:[UIImage imageNamed:@"Button_crystal"] forState:UIControlStateNormal];
+        [selectedButton setBackgroundImage:[UIImage imageNamed:@"Button_crystal.png"] forState:UIControlStateNormal];
         [delegate tabWasSelected:selectedButton.tag];
     }
 }
